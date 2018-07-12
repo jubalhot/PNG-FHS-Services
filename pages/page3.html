@@ -1,0 +1,99 @@
+<html>
+
+<head>
+        <link href="/css/style.css" rel="stylesheet"/>
+
+<title>Organizational Structure</title>
+
+<script>
+var yourtext="Organizational Structure";
+var messLength=yourtext.length;
+var initcolor="black";
+var yourcolor="red";
+var speed=100;
+var i;
+var j=0;
+document.write("<h1><font color='"+initcolor+"'>");
+	for (i=0;i<messLength;i++){
+document.write("<span id='yourid"+i+"'>"+yourtext.charAt(i)+"</span>");	}document.write("</font></h1>");
+function colorit(){var idd="yourid"+j;	
+if (j<messLength){
+document.getElementById(idd).style.color=yourcolor;j++}	
+else {j=0;		
+for (i=0;i<messLength;i++){		
+var newidd="yourid"+i;		
+document.getElementById(newidd).style.color=initcolor;		}	}	}
+function doit(){timer=setInterval("colorit()",speed)}
+window.onload=doit;
+</script>
+
+
+</head>
+
+<body>
+    <body align="center">
+    
+    <p><h2>Operations and Staffing</h2>
+    PNG F.H.S Services comprises of four (4) personals/employees as permanent staffs. Health and Safety trainers are taken on hire 
+    basis if/when we are running health and safety workshops for our clients. Our organizational structure is as follows;</p>
+    
+    <p align="center">    
+    <table border="2">
+        <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Staff Names</th>
+            <th scope="col">Designation</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Thimeaus J Vevera</td>
+            <td>Managing Director</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aisi Bani</td>
+            <td>Sales and Marketing Manager</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Terence Yipam</td>
+            <td>Sales and Service Supervisor</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Godfrey Boira</td>
+            <td>Sales and Service Technician</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Sebastian Tilman</td>
+            <td>Training Consultant</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Charlie Alex</td>
+            <td>Training Consultant</td>
+        </tr>
+    </table>
+    </p>
+    <p><h2>Management Team</h2>
+    <img src="/images/id1.jpg" alt="MANAGING DIRECTOR" name="Thimeaus J Vevera" id="Thimeaus J Vevera" width="210" height="330" border="
+    1">
+    <img src="/images/id2.jpg" alt="SALES and MARKETING MANAGER" name="AISI Bani" id="AISI Bani" width="210" height="330" border="1">
+    <img src="/images/id3.jpg" alt="SALES and SERVICE SUPERVISOR" name="TERENCE Yipam" id="TERENCE Yipam" width="210" height="330" 
+    border="1">
+    </p>
+    
+<form>
+    <input type=button value='Click to Print' onClick='javascript:window.print()'>
+</form>
+
+<form>
+<div align='center'>
+    <input type='button' value='HOMEPAGE' onClick='history.go(-1)'>
+</div>
+</form>
+
+</body>
+
+</html>

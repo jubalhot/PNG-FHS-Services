@@ -1,0 +1,131 @@
+<html>
+        <link href="/css/style.css" rel="stylesheet"/>
+<head>
+
+<title>Company Particulars</title>
+
+<script>
+var yourtext="Company Particulars";
+var messLength=yourtext.length;
+var initcolor="black";
+var yourcolor="red";
+var speed=100;
+var i;
+var j=0;
+document.write("<h1><font color='"+initcolor+"'>");
+	for (i=0;i<messLength;i++){
+document.write("<span id='yourid"+i+"'>"+yourtext.charAt(i)+"</span>");	}document.write("</font></h1>");
+function colorit(){var idd="yourid"+j;	
+if (j<messLength){
+document.getElementById(idd).style.color=yourcolor;j++}	
+else {j=0;		
+for (i=0;i<messLength;i++){		
+var newidd="yourid"+i;		
+document.getElementById(newidd).style.color=initcolor;		}	}	}
+function doit(){timer=setInterval("colorit()",speed)}
+window.onload=doit;
+</script>
+
+</head>
+
+<body>
+
+    <body align="center">
+    
+<h1>IPA Registration</h1>
+<p>PNG F.H.S Services (a.k.a PNG Fire, Health and Safety Services) is registered as a legal business entity under the Business Act 1997 with Investment Promotion Authority in Papua New Guinea. PNG F.H.S Services is also a registered TAX Payer with IRC. Details are as follows;</p>
+<p>
+    
+<table width="50%" cellspacing="1" border="1" summary="Business Registration particulars with Investment Promotion Authority" align="center">
+   <caption>
+   <h3>IPA Registration Particulars</h3>
+   </caption>
+   <tr>
+      <td>Business Trading Name</td>
+      <td>PNG FIRE, HEALTH AND SAFETY SERVICES</td>
+   </tr>
+   <tr>
+      <td>Business Registered Name</td>
+      <td>PNG F.H.S SERVICES</td>
+   </tr>
+   <tr>
+      <td>IPA Registration No:</td>
+      <td>6-211768</td>
+   </tr>
+   <tr>
+      <td>Registration Date</td>
+      <td>16 February 2017</td>
+   </tr>
+   <tr>
+      <td>Commencement Date</td>
+      <td>20 February 2017</td>
+   </tr>
+   <tr>
+      <td>Ownership</td>
+      <td>SOLE TRADER</td>
+   </tr>
+   <tr>
+      <td>Residential Address</td>
+      <td>Unit 1, Section 103, Allotment 301, Gannet Street, Cassowary Road, Lae</td>
+   </tr>
+   <tr>
+      <td>Postal Address</td>
+      <td>PO Box 2969, Lae, Morobe Province 411, PNG</td>
+   </tr>
+   <tr>
+      <td>CONTACT</td>
+      <td>&nbsp;</td>
+   </tr>
+   <tr>
+      <td>Digicel</td>
+      <td>(675) 79192687</td>
+   </tr>
+   <tr>
+      <td>Email</td>
+      <td>pngfhs.services@gmail.com</td>
+   </tr>
+   <tr>
+      <td>Current Trading Address</td>
+      <td>Section 263, Allotment 16, BUIMO ROAD Housing Commission</td>
+   </tr>
+   <tr>
+      <td>City/Town</td>
+      <td>LAE</td>
+   </tr>
+   <tr>
+      <td>Province</td>
+      <td>Morobe</td>
+   </tr>
+   <tr>
+      <td>Country</td>
+      <td>Papua New Guinea</td>
+   </tr>
+</table>
+</p>
+
+<h1>IRC Tax Identification Number (TIN)</h1>
+
+<p>
+<table width="50%" cellspacing="1" border="1" align="center">
+   <tr>
+      <td>TIN</td>
+      <td>500858668</td>
+   </tr>
+</table>
+</p>
+
+
+
+
+<form>
+    <input type=button value='Click to Print' onClick='javascript:window.print()'>
+</form>
+
+<form>
+<div align='center'>
+    <input type='button' value='HOMEPAGE' onClick='history.go(-1)'>
+</div>
+</form>
+</body>
+
+</html>

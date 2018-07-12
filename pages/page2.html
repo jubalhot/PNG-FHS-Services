@@ -1,0 +1,143 @@
+<html>
+
+<head>
+        <link href="/css/style.css" rel="stylesheet"/>
+
+<title>What does PNG F.H.S Services do? </title>
+
+
+<script>
+var yourtext="What does PNG F.H.S Services do?";
+var messLength=yourtext.length;
+var initcolor="black";
+var yourcolor="red";
+var speed=100;
+var i;
+var j=0;
+document.write("<h1><font color='"+initcolor+"'>");
+	for (i=0;i<messLength;i++){
+document.write("<span id='yourid"+i+"'>"+yourtext.charAt(i)+"</span>");	}document.write("</font></h1>");
+function colorit(){var idd="yourid"+j;	
+if (j<messLength){
+document.getElementById(idd).style.color=yourcolor;j++}	
+else {j=0;		
+for (i=0;i<messLength;i++){		
+var newidd="yourid"+i;		
+document.getElementById(newidd).style.color=initcolor;		}	}	}
+function doit(){timer=setInterval("colorit()",speed)}
+window.onload=doit;
+</script>
+</head>
+
+<body>
+
+<body align="left">
+
+    <p>
+        <h2>OUR PRODUCTS AND SERVICES</h2>
+        Following are our products and services that we provide to our clients to meet their Fire, Health and Safety needs.
+        
+        <h3>PRODUCTS AND SERVINCES</h3>
+            <ul>
+            <li>Supply and Installation of Fire Extinguishers and Safety Equipment in Office Buildings, Houses, Trucks and Ships.<ul>
+            </ul></li>
+            </ul>
+            <ul>
+            <li>Supply and Installation of Fire Hose Reel with Fire Blankets.<ul>
+            </ul></li>
+            </ul>
+            <ul>
+            <li>Supply and Installation of Fire Safety Signs.<ul>
+            </ul></li>
+            </ul>
+            <ul>
+            <li>Supply and Installation of Fire Smoke Detectors in Offices and Homes.<ul>
+            </ul></li>
+            </ul>
+            <ul>
+            <li>Supply and Installation of Fire Alarm Systems (Setup to be made with the clients phone so a SMS notification will be    
+            receive when fire and smoke is detected in the office or house).<ul>
+            </ul></li>
+            </ul>
+            <ul>
+            <li>Servicing of Fire Extinguishers and Hose Reels.<ul>
+            </ul></li>
+            </ul>
+            <ul>
+            <li>Refilling of Fire Extinguishers.<ul>
+            </ul></li>
+            </ul>
+        
+        <h3> TRAININGS </h3>
+            <ul> 
+            <li>Basic Training in Fire Safety </li>
+                <ul>
+                    <li>How to use Fire Extinguishers </li>
+                    <li>What to do when you encounter Fire in officers/home </li>
+                    </ul></li>
+            </ul>
+            <ul> 
+            <li>Training in Applying First Aid </li>
+                <ul>
+                </ul></li>
+            </ul>
+            <ul> 
+            <li> Work Health and Safety Trainings </li>
+                <ul>
+                    <li> WHS/OHS Level 1, Level 2 and Level 3 </li>
+                    <li> WHS/OHS Certificate IV </li>
+                    </ul></li>
+            </ul>
+            <ul> 
+            <li> Health, Safety and Environment (HSE) Training </li>
+                <ul>
+                </ul></li>
+            </ul>
+            <ul> 
+            <li> Driver Trainings </li>
+                <ul>
+                    <li> Light Motor Vehicles </li>
+                    <li> Heavy duty Motor Vehicles </li>
+                    </ul></li>
+            </ul>
+            <ul> 
+            <li> Defensive Driver Trainings </li>
+                <ul>
+                    <li> Light Motor Vehicles </li>
+                    <li> Heavy duty Motor Vehicles </li>
+                    </ul></li>
+            </ul>
+        
+        <h3> Other Services </h3>
+            <ul> 
+            <li> Marking & paintings of Safety lines at workplaces car park. </li>
+                <ul>
+                </ul></li>
+            </ul>
+            <ul> 
+            <li> Cutting & Trimming of trees at workplace for safety purposes. </li>
+                <ul>
+                </ul></li>
+            </ul>
+            <ul> 
+            <li> Supply of Safety Equipment, gears and safety wears for our clients as per request. </li>
+                <ul>
+                </ul></li>
+            </ul>
+        
+    </p>
+
+<form>
+    <input type=button value='Click to Print' onClick='javascript:window.print()'>
+</form>
+
+<form>
+<div align='center'>
+    <input type='button' value='HOMEPAGE' onClick='history.go(-1)'>
+</div>
+</form>
+
+
+</body>
+
+</html>
